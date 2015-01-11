@@ -1,0 +1,165 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'requirejs' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'requirejs', null ]
+5 verbose cache add name=undefined spec="requirejs" args=["requirejs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'requirejs',
+6 verbose parsed url   path: 'requirejs',
+6 verbose parsed url   href: 'requirejs' }
+7 silly lockFile f2b16c35-requirejs requirejs
+8 verbose lock requirejs /Volumes/Macintosh HD/Users/paul/.npm/f2b16c35-requirejs.lock
+9 silly lockFile f2b16c35-requirejs requirejs
+10 silly lockFile f2b16c35-requirejs requirejs
+11 verbose addNamed [ 'requirejs', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile e9b02655-requirejs requirejs@
+14 verbose lock requirejs@ /Volumes/Macintosh HD/Users/paul/.npm/e9b02655-requirejs.lock
+15 silly addNameRange { name: 'requirejs', range: '*', hasData: false }
+16 verbose request where is /requirejs
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id dfd3330c933ce47a
+19 verbose url raw /requirejs
+20 verbose url resolving [ 'https://registry.npmjs.org/', './requirejs' ]
+21 verbose url resolved https://registry.npmjs.org/requirejs
+22 verbose request where is https://registry.npmjs.org/requirejs
+23 info trying registry request attempt 1 at 17:07:32
+24 verbose etag "BRAKXAXZ2JCATDQ72BV2I844N"
+25 http GET https://registry.npmjs.org/requirejs
+26 http 304 https://registry.npmjs.org/requirejs
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Sat, 20 Dec 2014 22:07:33 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Sat, 20 Dec 2014 22:07:33 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"BRAKXAXZ2JCATDQ72BV2I844N"',
+27 silly registry.get     age: '26',
+27 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1419113253.633372,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/requirejs from cache
+29 silly addNameRange number 2 { name: 'requirejs', range: '*', hasData: true }
+30 silly addNameRange versions [ 'requirejs',
+30 silly addNameRange   [ '0.26.0',
+30 silly addNameRange     '0.27.0',
+30 silly addNameRange     '0.27.1',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.0.5',
+30 silly addNameRange     '1.0.6',
+30 silly addNameRange     '1.0.7',
+30 silly addNameRange     '1.0.8',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '2.0.1',
+30 silly addNameRange     '2.0.2',
+30 silly addNameRange     '2.0.3',
+30 silly addNameRange     '2.0.4',
+30 silly addNameRange     '2.0.5',
+30 silly addNameRange     '2.0.6',
+30 silly addNameRange     '2.1.0',
+30 silly addNameRange     '2.1.1',
+30 silly addNameRange     '2.1.2',
+30 silly addNameRange     '2.1.3',
+30 silly addNameRange     '2.1.4',
+30 silly addNameRange     '2.1.5',
+30 silly addNameRange     '2.1.6',
+30 silly addNameRange     '2.1.7',
+30 silly addNameRange     '2.1.8',
+30 silly addNameRange     '2.1.9',
+30 silly addNameRange     '2.1.10',
+30 silly addNameRange     '2.1.11',
+30 silly addNameRange     '2.1.12',
+30 silly addNameRange     '2.1.13',
+30 silly addNameRange     '2.1.14',
+30 silly addNameRange     '2.1.15' ] ]
+31 verbose addNamed [ 'requirejs', '2.1.15' ]
+32 verbose addNamed [ '2.1.15', '2.1.15' ]
+33 silly lockFile 87818c58-requirejs-2-1-15 requirejs@2.1.15
+34 verbose lock requirejs@2.1.15 /Volumes/Macintosh HD/Users/paul/.npm/87818c58-requirejs-2-1-15.lock
+35 silly lockFile 87818c58-requirejs-2-1-15 requirejs@2.1.15
+36 silly lockFile 87818c58-requirejs-2-1-15 requirejs@2.1.15
+37 silly lockFile e9b02655-requirejs requirejs@
+38 silly lockFile e9b02655-requirejs requirejs@
+39 silly resolved [ { name: 'requirejs',
+39 silly resolved     description: 'Node adapter for RequireJS, for loading AMD modules. Includes RequireJS optimizer',
+39 silly resolved     version: '2.1.15',
+39 silly resolved     homepage: 'http://github.com/jrburke/r.js',
+39 silly resolved     author:
+39 silly resolved      { name: 'James Burke',
+39 silly resolved        email: 'jrburke@gmail.com',
+39 silly resolved        url: 'http://github.com/jrburke' },
+39 silly resolved     licenses: [ [Object], [Object] ],
+39 silly resolved     repository: { type: 'git', url: 'https://github.com/jrburke/r.js.git' },
+39 silly resolved     main: './bin/r.js',
+39 silly resolved     bin: { 'r.js': './bin/r.js' },
+39 silly resolved     engines: { node: '>=0.4.0' },
+39 silly resolved     bugs: { url: 'https://github.com/jrburke/r.js/issues' },
+39 silly resolved     _id: 'requirejs@2.1.15',
+39 silly resolved     scripts: {},
+39 silly resolved     _shasum: 'cbcfce55d584ae5983c00a20daa8eade37d18892',
+39 silly resolved     _from: 'requirejs@',
+39 silly resolved     _npmVersion: '1.4.14',
+39 silly resolved     _npmUser: { name: 'jrburke', email: 'jrburke@gmail.com' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: 'cbcfce55d584ae5983c00a20daa8eade37d18892',
+39 silly resolved        tarball: 'http://registry.npmjs.org/requirejs/-/requirejs-2.1.15.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     _resolved: 'https://registry.npmjs.org/requirejs/-/requirejs-2.1.15.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install requirejs@2.1.15 into /usr/local/lib
+41 info installOne requirejs@2.1.15
+42 verbose lib/node_modules/requirejs unbuild
+43 verbose tar unpack /Volumes/Macintosh HD/Users/paul/.npm/requirejs/2.1.15/package.tgz
+44 silly lockFile 1e7b7797-local-lib-node-modules-requirejs tar:///usr/local/lib/node_modules/requirejs
+45 verbose lock tar:///usr/local/lib/node_modules/requirejs /Volumes/Macintosh HD/Users/paul/.npm/1e7b7797-local-lib-node-modules-requirejs.lock
+46 silly lockFile f76713f6-npm-requirejs-2-1-15-package-tgz tar:///Volumes/Macintosh HD/Users/paul/.npm/requirejs/2.1.15/package.tgz
+47 verbose lock tar:///Volumes/Macintosh HD/Users/paul/.npm/requirejs/2.1.15/package.tgz /Volumes/Macintosh HD/Users/paul/.npm/f76713f6-npm-requirejs-2-1-15-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/requirejs'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/requirejs']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/requirejs',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/requirejs',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:107:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.0.0
+52 error command "node" "/usr/local/bin/npm" "install" "-g" "requirejs"
+53 error cwd /Volumes/Macintosh HD/Users/paul/projects/grunt-weather
+54 error node -v v0.10.32
+55 error npm -v 1.4.28
+56 error path /usr/local/lib/node_modules/requirejs
+57 error fstream_path /usr/local/lib/node_modules/requirejs
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/requirejs'
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose exit [ 3, true ]
